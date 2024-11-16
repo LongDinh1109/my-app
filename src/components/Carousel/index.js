@@ -27,8 +27,6 @@ const Carousel = ({ items }) => {
     }
 
     if (direction === "next" && carousel.current !== null) {
-        console.log("carousel.current.offsetWidth", carousel.current.offsetWidth);
-        
       return (
         carousel.current.offsetWidth * currentIndex >= maxScrollWidth.current
       );
