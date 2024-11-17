@@ -21,7 +21,7 @@ const TemplateSection = () => {
     );
   };
   return (
-    <div className="w-full xl:px-[60px] lg:px-7 sm:px-5 sm:py-5 p-6 h-fit bg-neutral-50 border-b border-neutral-200">
+    <div className="w-full xl:px-[60px] xl:py-10 lg:px-7 sm:px-5 sm:py-5 p-6 h-fit bg-neutral-50 border-b border-neutral-200">
       <div className="flex justify-between items-center">
         <div className="text-xl font-medium text-neutral-900">🌟 Templates</div>
         <button className="flex gap-1 items-center text-sm font-medium text-primary-500 hover:opacity-80">
