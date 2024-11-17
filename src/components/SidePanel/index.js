@@ -1,10 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-
 const themeStyles = {
   default: "text-[#374151] bg-white",
-  active: "text-[#565ADD] bg-[#F5F6FF]",
+  active: "text-primary-50 bg-primary-50",
 };
 
 const MenuItem = ({ menuItem }) => {
@@ -13,7 +12,7 @@ const MenuItem = ({ menuItem }) => {
         to={menuItem.url}
         className={({ isActive }) => [
           isActive ? themeStyles.active : themeStyles.default,
-          `flex items-center w-full px-3 py-[10px] rounded-lg gap-2 text-start transition-all hover:bg-[#F5F6FF] active:bg-gray-50 active:bg-opacity-80 hover:opacity-80 outline-none`,
+          `flex items-center w-full px-3 py-[10px] rounded-lg gap-2 text-start transition-all hover:bg-primary-50 active:bg-gray-50 active:bg-opacity-80 hover:opacity-80 outline-none`,
         ].join(" ")}
       >
         <div class="grid place-items-center mr-4">
