@@ -38,7 +38,7 @@ const TemplateSection = () => {
 
 const QuestSection = ({ title, items, theme }) => {
   return (
-    <div>
+    <div className="pb-5">
       <p className="text-2xl font-medium pb-5">{title}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-4 gap-5">
         <CardQuest type="empty" theme={theme} />
