@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const themeStyles = {
   default: "text-[#374151] bg-white",
-  active: "text-primary-50 bg-primary-50",
+  active: "text-primary-500 bg-primary-50",
 };
 
 const MenuItem = ({ menuItem }) => {
