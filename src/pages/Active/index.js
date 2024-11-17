@@ -21,7 +21,7 @@ const TemplateSection = () => {
     );
   };
   return (
-    <div className="w-full 2xl:px-[60px] xl:px-8 lg:px-7 sm:px-5 sm:py-5 p-6 h-fit bg-neutral-50 border-b border-neutral-200">
+    <div className="w-full xl:px-[60px] lg:px-7 sm:px-5 sm:py-5 p-6 h-fit bg-neutral-50 border-b border-neutral-200">
       <div className="flex justify-between items-center">
         <div className="text-xl font-medium text-neutral-900">🌟 Templates</div>
         <button className="flex gap-1 items-center text-sm font-medium text-primary-500 hover:opacity-80">
@@ -73,7 +73,7 @@ const ActivePage = () => {
       </div>
       <div className="overflow-y-auto">
         <TemplateSection />
-        <div className="flex flex-col items-start gap-5 w-full 2xl:px-[60px] xl:px-8 lg:px-7 sm:px-5 sm:py-5 p-6">
+        <div className="flex flex-col items-start gap-5 w-full xl:px-[60px] xl:py-[40px] lg:px-7 sm:px-5 sm:py-5 p-6">
           <div className="flex flex-wrap sm:flex-row justify-items-start items-center gap-2 pb-5">
             {questTags.map((item, _id) => (
               <button className="px-3 py-2 bg-neutral-100 rounded-lg hover:opacity-70 col-span-2">

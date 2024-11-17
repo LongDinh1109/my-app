@@ -48,7 +48,7 @@ const Carousel = ({ items }) => {
   }, []);
 
   return (
-    <div className="carousel my-12 mx-auto 2xl:w-[75vw] xl:w-[60vw] lg:w-[55vw]">
+    <div className="carousel my-12 mx-auto 2xl:w-[75vw] xl:w-[70vw] lg:w-[55vw]">
       <div className="relative">
         <div className="flex justify-between absolute top left w-full h-full">
           <button

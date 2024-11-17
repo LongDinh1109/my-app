@@ -63,7 +63,7 @@ const CardQuest = ({
           </div>
         </div>
         <div
-          className={`text-[10px] font-regular text-[#6B7280] px-2 py-[6px] rounded-lg ${styles.tag}`}
+          className={`text-[10px] font-regular text-[#6B7280] px-2 py-[6px] leading-3 rounded-lg ${styles.tag}`}
         >
           {quest.questReward.repeatType}
         </div>
